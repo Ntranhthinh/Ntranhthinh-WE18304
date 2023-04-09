@@ -1,0 +1,50 @@
+.form {
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  background-color: #888888;
+  border-radius: 25px;
+}
+
+#contact-form {
+  margin: 100px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid blACK;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: white;
+  display: flex;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #a9a9a9;
+}
+
+#error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
